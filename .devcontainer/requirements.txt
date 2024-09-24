@@ -24,3 +24,4 @@ beautifulsoup4
 fake-useragent
 selenium
 webdriver_manager
+missingno
