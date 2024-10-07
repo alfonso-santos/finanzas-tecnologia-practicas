@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.11
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.10
 
 # Instala Google Chrome
 RUN apt-get update && \
