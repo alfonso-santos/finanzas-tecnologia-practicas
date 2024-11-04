@@ -1,0 +1,46 @@
+Variable,Description,Data Type,Notes
+sic_number,Standard Industrial Classification number,float,Standard Industrial Classification used for categorizing the industry
+company_name,Name of the company,object,Name of the company running the crowdfunding campaign
+target,Funding target for the campaign,float,Target amount to be raised in the crowdfunding campaign
+start_date_edgar,Start date of campaign submission on EDGAR,datetime,"Start date of the campaign, as recorded on EDGAR"
+dead_line_edgar,Deadline of the campaign on EDGAR,datetime,"Deadline of the campaign, as recorded on EDGAR"
+price_per_share,Price per share offered,float,Price offered per share in the campaign
+industry_group_offer,Industry group for the offer,object,"Broad industry category for the offer (e.g., Technology, Healthcare)"
+n_of_security_offered,Number of securities offered,float,Total number of securities offered in the campaign
+security_type,Type of security,object,"Type of security being offered (e.g., equity, debt)"
+current_employees,Current number of employees,float,Total current employees at the time of the offering
+platform_name,Name of the crowdfunding platform,object,Crowdfunding platform where the campaign is hosted
+n_previous_C,Number of previous C filings,float,Count of previous Form C filings by the company
+n_previous_A,Number of previous A filings,float,Count of previous Form A filings by the company
+n_previous_D,Number of previous D filings,float,Count of previous Form D filings by the company
+n_previous_filings,Total number of previous filings,float,Total count of previous filings across different forms
+n_post_C,Number of post C filings,float,Count of post-offering Form C filings
+n_post_A,Number of post A filings,float,Count of post-offering Form A filings
+n_post_D,Number of post D filings,float,Count of post-offering Form D filings
+n_post_filings,Total number of post filings,float,Total count of post-offering filings
+has_terminated_anual_report,Indicates if the annual report is terminated,bool,Indicates if the annual report was terminated
+amount_raised,Total amount raised in the campaign,float,Total amount raised in the campaign (primary measure)
+raised,Alternative raised amount format,float,Alternative representation of total amount raised
+total_assets_most_recent,Total assets in most recent report,float,Total assets reported most recently
+total_assets_prior,Total assets in previous report,float,Total assets reported in the previous period
+cash_equi_most_recent,Cash and equivalents in most recent report,float,Cash and cash equivalents in the most recent report
+cash_equi_prior,Cash and equivalents in previous report,float,Cash and cash equivalents in the previous report
+act_receiv_most_recent,Accounts receivable in most recent report,float,Accounts receivable in the most recent report
+act_receiv_prior,Accounts receivable in previous report,float,Accounts receivable in the previous report
+short_term_debt_most_recent,Short-term debt in most recent report,float,Short-term debt in the most recent report
+short_term_debt_prior,Short-term debt in previous report,float,Short-term debt in the previous report
+long_term_debt_most_recent,Long-term debt in most recent report,float,Long-term debt in the most recent report
+long_term_debt_prior,Long-term debt in previous report,float,Long-term debt in the previous report
+revenue_most_recent,Revenue in most recent report,float,Revenue reported in the most recent period
+revenue_prior,Revenue in previous report,float,Revenue reported in the previous period
+cost_good_sold_most_recent,Cost of goods sold in most recent report,float,Cost of goods sold in the most recent report
+cost_good_sold_prior,Cost of goods sold in previous report,float,Cost of goods sold in the previous report
+tax_paid_most_recent,Tax paid in most recent report,float,Taxes paid in the most recent report
+tax_paid_prior,Tax paid in previous report,float,Taxes paid in the previous report
+net_income_most_recent,Net income in most recent report,float,Net income reported in the most recent period
+net_income_prior,Net income in previous report,float,Net income reported in the previous period
+n_signatures_female,Number of female signatures,float,Number of female signatories on the filing
+success,Indicates success of campaign,bool,Primary success indicator for the campaign
+success.1,Alternative success indicator,int,Alternative success indicator for the campaign
+success2,Secondary success indicator,int,Secondary success indicator (alternative measure)
+success3,Third success indicator with no data,float,Third success indicator (mostly empty)
